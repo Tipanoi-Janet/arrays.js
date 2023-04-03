@@ -1,0 +1,45 @@
+//find the last element of the arrays
+arr1 = [3, 7, 34, 90, 12];
+let lastElement = arr1.length(-1);
+console.log(lastElement);
+
+arr2 = ["true", "where", "green", 12, 56];
+let mix = arr2[arr2.length - 1];
+console.log(mix);
+
+//write a JS programme that will join the following array elements into a string
+let mypet = ["cow", "python", "snake", "dog"];
+let b = mypets.join();
+console.log(b);
+
+//write a JS script to sort the following array items
+//var arr3 -=[-5,9,5,3,2,-3,6,8,4,1]
+var arr3 = [-5, 9, 5, 3, 2, -3, 6, 8, 4, 1];
+let nums = arr3.sort((a, b) => a, -b);
+console.log;
+nums;
+
+//write a program to remove duplicates from the following array.
+//console the array without duplicates and console another with only a duplicate
+var arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
+function removeFruit(arr) {
+  return [...new Set(arr)];
+  console.log(removeFriut(arr));
+
+  function findDuplicate(arr) {
+    return arr.filter((number, index) => arr.indexOf(number) !== index);
+  }
+  console.log(findDuplicates(arr));
+}
+//write JS script to search for the following word in an array
+4;
+//if the word is present,console it else console "the search word is not found"
+let aar5 = ["the", "way", "x", 423];
+const z = ["the", "way", "x", 423];
+console.log(nums.includes(4));
+
+//write a JS script to sort the following string let word = "lutituaeb"
+var word = lutituaeb;
+let y = word.sort(lutituaeb);
+console.log;
+word;
