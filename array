@@ -41,5 +41,4 @@ console.log(nums.includes(4));
 //write a JS script to sort the following string let word = "lutituaeb"
 var word = lutituaeb;
 let y = word.sort(lutituaeb);
-console.log;
-word;
+console.log(y);
