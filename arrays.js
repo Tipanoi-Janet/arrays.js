@@ -1,13 +1,17 @@
 //write  a function that accepts an array of strings and console.log each element using for loop.
 function nameList(strings){
-    for(let j=0;j<strings.length;j++){
+   for(let j=0;j<strings.length; j++){
   console.log(strings[j]);  
  
-    }
+  }
 
 }
+
+
     let strings=["Janet","Jane","Sheenah"]
     nameList(strings);
+
+    
 
     //write a function that takes in an array of numbers 
     //console the first four items multiplied by 8 and the last added by 5.console the array with the new values.
@@ -38,17 +42,19 @@ function nameList(strings){
 
    //write a function that takes in the following array and use a while loop to iterate break when the item is equal to the fouth index 
    //let arrNum=[1,2,3,4,5,6,7,8,9] 
-   function takesArray(arrNum){
+   function takeArray(arrNum){
     let i=0;
-    while(i<Number.length){
-        if(i===4){
+
+    while( i< arrNum.length){ 
+        if(i === 4){
             break;
         }
         console.log(arrNum[i]);
+        i++;
     }
-   }
+}
 let arrNum= [1,2,3,4,5,6,7,8,9];
-takesArray(arrNum);
+takeArray(arrNum);
 
 //write a function that takes in a an array of strings and use continue statement when the item is at the second index 
 function fruitsArr(str){
